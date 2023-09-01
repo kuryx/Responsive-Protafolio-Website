@@ -655,7 +655,48 @@ background-color: var(--first-color-lighter);
   color: var(--first-color);
 }
 /*==================== SERVICES ====================*/
+.services__container
+{
+  gap: 1.5rem;
+  grid-template-columns: repeat(2, 1fr);
+}
 
+.services__content
+{
+  position: relatice;
+  background-color: var(--container-color);
+  padding: 3.5rem .5rem 1.25rem 1.5rem;
+  border-radius: .25rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .15);
+  transition: .3s;
+}
+
+.services__content:hover
+{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, .15);
+}
+
+.services__icon
+{
+  display: block;
+  font-size: 1.5rem;
+  color: var(--first-color);
+  margin-bottom: var(--mb-1);
+}
+
+.services__title
+{
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--mb-1);
+  font-weight: var(--font-medium);
+
+}
+
+.services__button
+{
+  cursor: pointer;
+  font-size: --s;
+}
 
 /* Active Modal */
 
