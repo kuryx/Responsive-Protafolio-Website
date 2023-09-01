@@ -394,14 +394,14 @@ img {
 .about__description
 {
   text-align: center;
-  margin-bottom: var(--mb-2-25);
+  margin-bottom: var(--mb-2-5);
 }
 
 .about__info
 {
   display: flex;
   justify-content: space-evenly;
-  margin-bottom: var(--mb-2-25);
+  margin-bottom: var(--mb-2-5);
 }
 
 .about__info-title
