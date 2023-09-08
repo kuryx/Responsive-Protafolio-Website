@@ -273,7 +273,7 @@ img {
 .nav__close:hover{
     color: var(--first-color-alt);
 }
-    
+
 
 /* show menu */
 .show-menu
@@ -1556,7 +1556,7 @@ padding: 0 1rem;
 
 .contact__inputs
 {
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1frW );
 }
 
 }
