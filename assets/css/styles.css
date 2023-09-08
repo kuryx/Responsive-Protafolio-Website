@@ -984,7 +984,7 @@ background-color: var(--first-color-lighter);
   color: var(--text-color-light);
 }
 
-.testimonial__descriptiono
+.testimonial__description
 {
   margin-bottom: var(--mb-2-5)
 }
@@ -994,7 +994,7 @@ background-color: var(--first-color-lighter);
   color: var(--first-color);
 }
 
-.swiper-container .swiper-pagination-testimonial
+ .swiper-container .swiper-pagination-testimonial
 {
   bottom: 0;
 }
