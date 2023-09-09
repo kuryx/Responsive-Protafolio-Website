@@ -1330,7 +1330,7 @@ transition: .4s;
   .main,
   .footer__container
   {
-padding: 0 1rem;
+  padding: 0 1rem;
   }
 
   .nav
@@ -1505,7 +1505,7 @@ padding: 0 1rem;
 @media screen and (min-width: 1024px)
 {
   .header,
-  main,
+  .main,
   .footer__container
   {
     padding: 0;
@@ -1513,7 +1513,7 @@ padding: 0 1rem;
 
   .home__blob
   {
-    width: 230px;
+    width: 320px;
   }
   .home__social
   {
