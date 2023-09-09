@@ -782,6 +782,7 @@ background-color: var(--first-color-lighter);
   background-color: rgba(0, 0, 0, .5);
   display: flex;
   align-items: center;
+  justify-content: center;
   padding: 0 1rem;
   z-index: var(--z-modal);
   opacity: 0; 
