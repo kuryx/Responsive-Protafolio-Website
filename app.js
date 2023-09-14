@@ -60,13 +60,13 @@ function efectoHabilidades(){
             pintarBarra(html, 16, 0, intervalHtml);
         },100);
         const intervalJavascript = setInterval(function(){
-            pintarBarra(javascript, 11, 1, intervalJavascript);
+            pintarBarra(javascript, 13, 1, intervalJavascript);
         },100);
         const intervalWordpress = setInterval(function(){
             pintarBarra(wordpress, 11, 2, intervalWordpress);
         },100);
         const intervalPhotoshop = setInterval(function(){
-            pintarBarra(photoshop, 15, 3, intervalPhotoshop);
+            pintarBarra(photoshop, 14, 3, intervalPhotoshop);
         },100);
         const intervalPhp = setInterval(function(){
             pintarBarra(php, 16, 4, intervalPhp);
@@ -83,7 +83,7 @@ function pintarBarra(id_barra, cantidad, indice, interval){
     x = contadores[indice];
     if(x < cantidad){
         let elementos = id_barra.getElementsByClassName("e");
-        elementos[x].style.backgroundColor = "#940253";
+        elementos[x].style.backgroundColor = "var(--first-color)";
     }else{
         clearInterval(interval)
     }
