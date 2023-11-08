@@ -406,7 +406,6 @@ img {
 .button:hover
 {
   background-color: var(--first-color-alt);
-  transform: scale(1.0);
 }
 
 .button__icon
@@ -435,7 +434,7 @@ color: var(--first-color);
 
 .button--small
 {
-  padding: .75rem 1rem;
+  padding: .75rem 6.rem;
 }
 
 .button--link
